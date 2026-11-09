@@ -1,56 +1,38 @@
-# Welcome to your Expo app 👋
+# React Native Components
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Colección de componentes e interfaces desarrollados con **React Native** y **Expo**.
 
-## Get started
+Este repositorio es un espacio de práctica y experimentación para reforzar conocimientos, explorar nuevas técnicas y profundizar en el desarrollo mobile.
 
-1. Install dependencies
+La idea es crear diferentes componentes, trabajar con gestos, animaciones e interacciones, probar distintas soluciones y mejorar progresivamente la calidad y fluidez de las interfaces.
 
-   ```bash
-   npm install
-   ```
+## ✨ Enfoque
 
-2. Start the app
+- Reforzar conceptos y buenas prácticas de React Native.
+- Practicar la creación de componentes reutilizables.
+- Experimentar con gestos e interacciones táctiles.
+- Explorar animaciones y transiciones.
+- Probar librerías y herramientas del ecosistema.
+- Mejorar la fluidez y experiencia de usuario.
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **src/app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 🚀 Cómo ejecutar el proyecto
 
 ```bash
-npm run reset-project
+bun install
+bun start
 ```
 
-This command will move the starter code to the **example** directory and create a blank **src/app** directory where you can start developing.
+## 🛠️ Tecnologías
 
-### Other setup steps
+- React Native
+- Expo
+- Bun
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+## 📋 Requisitos
 
-## Learn more
+- Expo Go
+- Expo SDK 58
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+_Proyecto en constante evolución. Se irán incorporando nuevos componentes y experimentos._
