@@ -17,10 +17,12 @@ import Animated, {
 } from "react-native-reanimated";
 import { scheduleOnRN } from "react-native-worklets";
 
+const HEICHT = 50;
+
 function ButtonSlide() {
   const [containerWidth, setcontainerWidth] = useState<number>(0);
 
-  const maxTranslate = Math.max(containerWidth - 70 - 6 * 2, 0);
+  const maxTranslate = Math.max(containerWidth - HEICHT - 6 * 2, 0);
 
   const startX = useSharedValue(0);
   const valueX = useSharedValue(0);
@@ -130,8 +132,8 @@ const styles = StyleSheet.create({
     zIndex: 30,
     left: 6,
     backgroundColor: "#fff",
-    width: 70,
-    height: 70,
+    width: HEICHT,
+    height: HEICHT,
     borderRadius: "100%",
     display: "flex",
     flexDirection: "column",
@@ -144,7 +146,7 @@ const styles = StyleSheet.create({
   placeholderContainer: {
     backgroundColor: "#00000000",
     width: "100%",
-    height: 70,
+    height: HEICHT,
     borderRadius: "100%",
     display: "flex",
     flexDirection: "column",
