@@ -1,13 +1,13 @@
 import { StyleSheet, View } from "react-native";
 import {
-    GestureDetector,
-    usePanGesture,
-    usePinchGesture,
-    useSimultaneousGestures,
+  GestureDetector,
+  usePanGesture,
+  usePinchGesture,
+  useSimultaneousGestures,
 } from "react-native-gesture-handler";
 import Animated, {
-    useAnimatedStyle,
-    useSharedValue,
+  useAnimatedStyle,
+  useSharedValue,
 } from "react-native-reanimated";
 
 function CircleExample() {
